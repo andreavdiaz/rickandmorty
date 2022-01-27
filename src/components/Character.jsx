@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import styles from "./Character.module.css"
 
 export const Character = (props) => {
-  const { id, name, status, species, gender, image } = props
+  const { id, name, image } = props
 
   return(
     <Link to={`/characters/${id}`}>
